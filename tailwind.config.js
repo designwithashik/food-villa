@@ -6,7 +6,12 @@ export default {
   ],
   theme: {
     extend: {},
-  },
-  plugins: [],
-}
+    fontFamily: {
+      'sans': ['Roboto', 'sans-serif'],
+      'quicksand': ['Quicksand', 'sans-serif'],
+    },
+    
+    plugins: [],
+  }
 
+}
