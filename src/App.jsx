@@ -5,8 +5,11 @@ import { Outlet } from 'react-router-dom';
 const App = () => {
   return (
     <div className='lg:mx-24 mx-12'>
-      <Header></Header>
+      <Header  ></Header>
+      <div  className='h-[calc(100vh-102px)] flex items-center'>
       <Outlet/>
+      
+      </div>      
     </div>
   );
 };

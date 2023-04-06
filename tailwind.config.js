@@ -8,7 +8,7 @@ export default {
     extend: {},
     fontFamily: {
       'sans': ['Roboto', 'sans-serif'],
-      'quicksand': ['Quicksand', 'sans-serif'],
+      // 'quicksand': ['Quicksand', 'sans-serif'],
     },
     
     plugins: [],
